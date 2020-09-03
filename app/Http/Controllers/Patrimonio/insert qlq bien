@@ -1,0 +1,125 @@
+ALTER PROCEDURE [pat].[Sp_INS_Bien]
+	/*@_iTipoCId tinyint,
+	@_iCatalogoId int,	
+	@_cBienCodigo nvarchar (12),
+	@_cBienDescripcion varchar(250),	
+	@_nBienValor numeric(12,2),	
+	@_cBienSerie	nvarchar(200),
+	@_cBienDimension nvarchar(200),
+	@_cBienOtrasCaracteristicas nvarchar(MAX),
+
+	@_dBienAnioFabricacion int,
+
+	@_iEstadoBienId tinyint,
+
+	@_iTipoId	int,
+	@_iYearId	int,
+	@_iPlanContId	int,
+  @_iDocAdqId bigint,*/
+	@_colores AS pat.coloresType READONLY
+
+ -- @_iCredId INTEGER
+	
+AS
+BEGIN TRANSACTION
+	SET NOCOUNT ON
+
+SELECT iColorId  FROM @_colores;
+	/*DECLARE @cUsuarioSis VARCHAR(50)	
+	SELECT @cUsuarioSis=c.cCredUsuario FROM seg.credenciales AS c WHERE c.iCredId=@_iCredId	
+	IF @@ERROR<>0 GOTO ErrorCapturado	
+
+
+
+	DECLARE @cMensaje VARCHAR(MAX)
+	IF COALESCE(@_cBienDescripcion,'') = ''
+		BEGIN
+			SET @cMensaje='Debe especificar la descripcion del bien.'
+			RAISERROR (@cMensaje,18,1,1)
+			GOTO ErrorCapturado
+		END
+DECLARE @_iCatalogoNoPatId int	
+DECLARE @_iCatSbnId int	
+
+
+	IF (@_iTipoCId=1) 
+BEGIN
+	SET @_iCatSbnId=@_iCatalogoId	
+	SET @_iCatalogoNoPatId=null
+END
+ELSE
+BEGIN
+		-- Statement block executes when the Boolean expression is FALSE
+	SET @_iCatalogoNoPatId=@_iCatalogoId	
+	SET @_iCatSbnId=null
+END
+
+
+SET @_cBienCodigo=SUBSTRING(@_cBienCodigo, 1, 8)
+SET @_cBienCodigo=pat.Fn_Get_Ultimo_Codigo_bien(@_cBienCodigo)
+
+
+	INSERT INTO pat.bienes
+		(
+		cBienCodigo,
+		cBienDescripcion,
+		nBienValor,
+		cBienSerie,
+		cBienDimension,
+		cBienOtrasCaracteristicas,
+		
+		dBienAnioFabricacion,
+
+		iEstadoBienId,
+		iTipoId,
+		iYearId,
+		iCatalogoNoPatId,
+		iCatSbnId,
+		iPlanContId,
+		iDocAdqId,
+		iTipoCId
+		)
+	VALUES
+		(	
+		@_cBienCodigo,
+		@_cBienDescripcion,
+		@_nBienValor,
+		@_cBienSerie,
+		@_cBienDimension,
+		@_cBienOtrasCaracteristicas,
+		
+		@_dBienAnioFabricacion,
+
+		@_iEstadoBienId,
+		@_iTipoId,
+		@_iYearId,
+		@_iCatalogoNoPatId,
+		@_iCatSbnId,
+		@_iPlanContId,
+		@_iDocAdqId	,
+		@_iTipoCId
+		)
+	DECLARE @iBienId INTEGER
+	SET @iBienId=@@IDENTITY
+
+
+
+
+
+
+
+	IF @@ERROR<>0 GOTO ErrorCapturado	
+	
+	COMMIT TRANSACTION
+	SELECT 1 AS iResult,@iBienId AS iBienId, @_cBienDescripcion AS cBienDescripcion
+	RETURN @iBienId*/
+ErrorCapturado:
+	ROLLBACK TRANSACTION
+	SELECT 0 AS iResult
+	RETURN 0
+/********************************************************************************************************************************************/
+
+
+
+
+

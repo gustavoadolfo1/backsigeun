@@ -1,0 +1,179 @@
+.txtgrande{
+	text-align:center; 
+	font-size:44px; 
+	padding:5px; 
+	border-width:4px; 
+	border-radius:17px; 
+	border-style:solid; 
+	background-color:#feffd6; 
+	border-color:#8a888a; 
+	color:#000000;
+}
+.btn1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+a:link {color: blue;}/* unvisited link */
+a:visited {color: blue;}/* visited link */
+a:hover {color: black;}/* mouse over link */
+
+a:active {color: blue;}/* selected link */
+.redondo {
+
+ background-color: #fff;
+/* width: 150;*/
+ height: auto;
+ 
+ padding: 5px;
+ BORDER-RIGHT: #FF8400 1px solid; 
+ BORDER-TOP: #FF8400 1px solid; 
+ FONT-SIZE: 15px; 
+ BORDER-LEFT: #FF8400 1px solid; 
+ BORDER-BOTTOM: #FF8400 1px solid; 
+ FONT-FAMILY: Verdana; 
+ -moz-border-radius: 11px;
+ -webkit-border-radius: 11px;
+ border-radius: 11px;
+ behavior: url(border-radius.htc);
+
+    }
+.redondoform {
+
+ background-color: #fff;
+ 
+ height: auto;
+ 
+ padding: 5px;
+ BORDER-RIGHT: #FF8400 1px solid; 
+ BORDER-TOP: #FF8400 1px solid; 
+ FONT-SIZE: 11px; 
+ BORDER-LEFT: #FF8400 1px solid; 
+ BORDER-BOTTOM: #FF8400 1px solid; 
+ FONT-FAMILY: Verdana; 
+ -moz-border-radius: 11px;
+ -webkit-border-radius: 11px;
+ border-radius: 11px;
+ behavior: url(border-radius.htc);
+
+    }
+BODY {
+	SCROLLBAR-FACE-COLOR: #dee3e7; 
+	FONT-SIZE: 11px; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #dee3e7; 
+	COLOR: #000000; 
+	SCROLLBAR-3DLIGHT-COLOR: #d1d7dc; 
+	SCROLLBAR-ARROW-COLOR: #006699; 
+	SCROLLBAR-TRACK-COLOR: #efefef; 
+	FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	SCROLLBAR-DARKSHADOW-COLOR: #98aab1
+}
+.t-rojo-n {
+}
+
+HR {
+	COLOR: #006699; HEIGHT: 2px; BACKGROUND-COLOR: #ffffff
+}
+P {
+	FONT-SIZE: 11px; COLOR: #006699; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+TH {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.tablehead {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; COLOR: #e0ac14; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: #c8d0d6
+}
+.tablebottom {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: #127caf
+}
+.bordercolor {
+	BACKGROUND-COLOR: #006699
+}
+.tablebgcolor {
+	BACKGROUND-COLOR: #f3f3f8
+}
+.fondo-gris {
+	FONT-WEIGHT: normal; BACKGROUND-COLOR: #cccccc
+}
+.t-ocre {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #c62b0f;
+	FONT-FAMILY: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	background-color: #FFF;
+}
+.t-rojo-n {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff2c00; FONT-FAMILY: Verdana
+}
+.t-rojo {
+	FONT-SIZE: 11px; COLOR: #ff2c00; FONT-FAMILY: Verdana
+}
+.t-azul {
+	FONT-SIZE: 11px; COLOR: #002578; FONT-FAMILY: Verdana
+}
+.t-azul-n {
+	FONT-WEIGHT: bold;FONT-SIZE: 11px; COLOR: #0000ff; FONT-FAMILY: Verdana
+}
+.t-gris{
+	FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Verdana
+}
+.t-blanco{
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana
+}
+.t-blanco-ne{
+	FONT-WEIGHT: bold;FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana
+}
+.t-resaltado {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #4b5f91; FONT-FAMILY: Verdana
+}
+.t-negro-n {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana
+}
+.n {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana
+}
+.t-negro {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana
+}
+.texto1 {
+    color: #07519A;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.texto2 {
+	color: #07519A;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.grande {
+	BORDER-RIGHT: #5d80a0 1px solid; BORDER-TOP: #5d80a0 1px solid; FONT-SIZE: 24px; BORDER-LEFT: #5d80a0 1px solid; BORDER-BOTTOM: #5d80a0 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #f9faff
+}
+.caja1 {
+	BORDER-RIGHT: #5d80a0 1px solid; BORDER-TOP: #5d80a0 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #5d80a0 1px solid; BORDER-BOTTOM: #5d80a0 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #f9faff
+}
+.caja2 {
+	BORDER-RIGHT: #FF8400 1px solid; BORDER-TOP: #FF8400 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #FF8400 1px solid; BORDER-BOTTOM: #FF8400 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #f9faff
+}s
+.fila1 {
+	BORDER-RIGHT: #5d80a0 1px solid; BORDER-TOP: #5d80a0 1px solid; BORDER-LEFT: #5d80a0 1px solid; BORDER-BOTTOM: #5d80a0 1px solid; COLOR: #006699; BACKGROUND-COLOR: #ebeef1
+}
+.fila2 {
+	BORDER-RIGHT: #5d80a0 1px solid; BORDER-TOP: #5d80a0 1px solid; BORDER-LEFT: #5d80a0 1px solid; BORDER-BOTTOM: #5d80a0 1px solid; COLOR: #006699; BACKGROUND-COLOR: #d9dde1
+}
+
+.input {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana,Arial,Helvetica,sans-serif
+}
+.select {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma,Verdana,Arial,Helvetica,sans-serif
+}

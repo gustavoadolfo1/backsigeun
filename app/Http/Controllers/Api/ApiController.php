@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Http\Controllers\Api;
+
+use App\Support\Response;
+use App\Support\Transform;
+use League\Fractal\Manager;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+
+class ApiController extends Controller
+{
+    protected $response;
+
+    public function __construct()
+    {
+        $manager = new Manager();
+
+        $this->response = new Response(
+            response(),
+            new Transform($manager)
+        );
+    }
+}

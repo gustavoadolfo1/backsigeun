@@ -1,0 +1,25 @@
+"filter":
+[
+{
+
+"isComplex":true,
+"ignoreAccent":false,
+"condition":"and",
+"predicates":[{"isComplex":false,"field":"cLocalDescripcion","operator":"startswith","value":"asd","ignoreCase":true,"ignoreAccent":false}]
+}
+
+]
+
+
+
+}
+
+
+"filter":
+[
+	{"isComplex":true,
+	"ignoreAccent":false,
+	"condition":"and",
+	"predicates":[
+		{"isComplex":false,"field":"cLocalDescripcion","operator":"startswith","value":"asd","ignoreCase":true,"ignoreAccent":false},
+		{"isComplex":false,"field":"iLocalId","operator":"startswith","value":"faf","ignoreCase":true,"ignoreAccent":false}]}]}
